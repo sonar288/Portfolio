@@ -6,7 +6,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #88939e;
   background-color: #222020 !important; }
 
 @media (min-width: 992px) {
@@ -23,7 +23,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40; }
+  color: #5b5c5e; }
 
 h1 {
   font-size: 6rem;
@@ -178,6 +178,11 @@ a {
       flex-wrap: wrap;
       overflow: hidden;
     }
+    @media (max-width: 768px) {
+      .cta {
+        flex: 1 1 calc(100% - 1rem);
+      }
+    }
     /* Contact Section */
 #contact {
   padding: 60px 0;
@@ -187,7 +192,6 @@ a {
 #contact h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #333;
 }
 
 #contact p {
